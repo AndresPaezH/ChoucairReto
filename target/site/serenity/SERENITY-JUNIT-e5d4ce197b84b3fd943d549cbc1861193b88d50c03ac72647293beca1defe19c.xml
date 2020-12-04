@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name="Menu Superior" skipped="0" tests="6" time="287.39" timestamp="2020-12-04 05:48:53"><testcase name="CP1060M_Validar un registro de contacto correcto con todos los campos diligenciados"><error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[@class='alert alert-success']&quot;}&#10;  (Session info: chrome=87.0.4280.66)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-E6NK309', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\CAROLC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 84c3d1c50042a0ca8a79be77e06edf96&#10;*** Element info: {Using=xpath, value=//p[@class='alert alert-success']}&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-E6NK309', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='alert alert-success']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E6NK309', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\CAROLC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 84c3d1c50042a0ca8a79be77e06edf96
+*** Element info: {Using=xpath, value=//p[@class='alert alert-success']}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E6NK309', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: unknown</error><system-err>no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='alert alert-success']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E6NK309', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\CAROLC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 84c3d1c50042a0ca8a79be77e06edf96
+*** Element info: {Using=xpath, value=//p[@class='alert alert-success']}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E6NK309', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: unknown&#13;
+choucair.pruebaIngreso.utilidades.Utilidades.esperaExplicitaToBeVisible(Utilidades.java:19)&#13;
+choucair.pruebaIngreso.pageObjects.MenuSuperiorPageObjects.verificoRegistroExitoso(MenuSuperiorPageObjects.java:105)&#13;
+choucair.pruebaIngreso.steps.MenuSuperiorSteps.verificarRegistroExitoso(MenuSuperiorSteps.java:32)&#13;
+choucair.pruebaIngreso.definitions.MenuSuperiorDefinitions.verificarRegistroExitoso(MenuSuperiorDefinitions.java:36)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+choucair.pruebaIngreso.runners.RunnerPersonalizado.run(RunnerPersonalizado.java:62)&#13;
+</system-err></testcase><testcase name="CP1070M_Validar un registro de contacto correcto sin referencia y/o sin archivo adjunto"/><testcase name="CP1090M_Validar un registro de contacto diligenciando incorrectamente cualquiera de los campos (obligatorios)."><failure type="java.lang.AssertionError"/><system-err>null&#13;
+choucair.pruebaIngreso.pageObjects.MenuSuperiorPageObjects.verificoRegistroFallido(MenuSuperiorPageObjects.java:114)&#13;
+choucair.pruebaIngreso.steps.MenuSuperiorSteps.verificarRegistroFallido(MenuSuperiorSteps.java:38)&#13;
+choucair.pruebaIngreso.definitions.MenuSuperiorDefinitions.verificarRegistroFallido(MenuSuperiorDefinitions.java:60)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+choucair.pruebaIngreso.runners.RunnerPersonalizado.run(RunnerPersonalizado.java:62)&#13;
+</system-err></testcase></testsuite>

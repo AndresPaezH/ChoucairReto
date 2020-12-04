@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Menu Superior","CP1060M_Validar un registro de contacto correcto con todos los campos diligenciados","ERROR","2020-12-04T05:48:53.949-05:00[America/Bogota]","0.0","110.03"
+"Menu Superior","CP1090M_Validar un registro de contacto diligenciando incorrectamente cualquiera de los campos (obligatorios).","FAILURE","2020-12-04T05:51:56.527-05:00[America/Bogota]","0.0","105.17"

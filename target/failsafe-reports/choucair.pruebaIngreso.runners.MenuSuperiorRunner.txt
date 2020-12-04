@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: choucair.pruebaIngreso.runners.MenuSuperiorRunner
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 337.061 s <<< FAILURE! - in choucair.pruebaIngreso.runners.MenuSuperiorRunner
+CP1060M_Validar un registro de contacto correcto con todos los campos diligenciados(Menu Superior)  Time elapsed: 64.413 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //p[@class='alert alert-success'] (tried for 30 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='alert alert-success']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E6NK309', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\CAROLC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 84c3d1c50042a0ca8a79be77e06edf96
+*** Element info: {Using=xpath, value=//p[@class='alert alert-success']}
+
+CP1090M_Validar un registro de contacto diligenciando incorrectamente cualquiera de los campos (obligatorios).(Menu Superior)  Time elapsed: 35.925 s  <<< ERROR!
+net.serenitybdd.core.exceptions.SerenityManagedException
+
+CP1090M_Validar un registro de contacto diligenciando incorrectamente cualquiera de los campos (obligatorios).(Menu Superior)  Time elapsed: 33.488 s  <<< ERROR!
+net.serenitybdd.core.exceptions.SerenityManagedException
+
