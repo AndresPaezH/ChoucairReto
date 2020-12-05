@@ -15,5 +15,5 @@ Feature: Prueba de ingreso Choucair
     Examples: 
       | EmailAddress | Password         | State                                       | PostalCode | cantidad |
       ##@externaldata@./src/test/resources/dataDriven/Main.xlsx@CP2040M
-|"pruebas32Cho@yaoo.com"|"12345"|"Florida"|"33124"|"3"|
+|"pruas32Cho@yaoo.com"|"12345"|"Florida"|"33124"|"3"|
 

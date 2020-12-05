@@ -69,7 +69,7 @@ Feature: Menu Superior
     Examples: 
       | EmailAddress | Password         | State                                       | PostalCode |
       ##@externaldata@./src/test/resources/dataDriven/MenuSuperior.xlsx@CP2040M
-|"pruebas2020Cho@yahoo.com"|"12345"|"Florida"|"33124"|
+|"prueas2020Cho@yahoo.com"|"12345"|"Florida"|"33124"|
 
 
 @CP2050M
