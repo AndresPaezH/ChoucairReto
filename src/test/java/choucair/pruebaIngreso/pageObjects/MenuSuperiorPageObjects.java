@@ -254,6 +254,7 @@ public class MenuSuperiorPageObjects extends PageObject {
 	public void inputAliasAddress() {
 		String firstName = element(By.xpath(inputFirstName)).getValue();
 		waitFor(1).second();
+		element(By.xpath(inputAlias)).clear();
 		String name = new Faker().dragonBall().character();
 		element(By.xpath(inputAlias)).sendKeys(firstName.concat(" "+name));
 	}
