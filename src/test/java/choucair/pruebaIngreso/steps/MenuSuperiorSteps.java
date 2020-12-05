@@ -78,6 +78,7 @@ public class MenuSuperiorSteps {
 		pageObjectMenuSuperior.inputContactPhone();
 		pageObjectMenuSuperior.inputAliasAddress();
 		pageObjectMenuSuperior.clickBtnRegister();	
+		pageObjectMenuSuperior.waitFor(10).seconds();
 	}
 	
 	public void validoRegistroExitoso() {

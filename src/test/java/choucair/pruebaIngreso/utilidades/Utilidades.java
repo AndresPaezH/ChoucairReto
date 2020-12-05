@@ -42,4 +42,11 @@ public class Utilidades extends PageObject {
         System.out.println(objSDF.format(fecha));
         return String.valueOf(objSDF.format(fecha));
 	}
+	
+	public static String generarNumeroAleatorioEntre(int limiteInfe, int limiteSup) {
+		Random numAleatorio = new Random();
+		int n = (numAleatorio.nextInt(limiteSup - limiteInfe + 1) + 1);
+		System.out.println(n);
+		return String.valueOf(n);
+	}
 }
